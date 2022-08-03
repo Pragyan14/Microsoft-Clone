@@ -1,0 +1,230 @@
+div .btn{
+  border-radius: 2px;
+}
+.no-line{
+  text-decoration: none;
+  font-weight: 500;
+  color: #0067b8;
+}
+.no-line:hover{
+  text-decoration: underline;
+}
+/* Navbar */
+#navbar{
+  margin: 0 5% ;
+}
+.navbar-brand-img{
+  width: 18%;
+}
+div .navbar-brand{
+  color: #262626;
+  font-weight: 600;
+}
+/* Slider */
+
+.carousel .carousel-indicators li {
+  background-color: black;
+  width: 11px;
+  height: 10px;
+  border-radius: 100%;
+  margin: 0 0.5%;
+  padding: 1px;
+}
+.carousel-indicators{
+  position: absolute;
+  top: 105%;
+}
+.big-img1 , .big-img2{
+  width: 100%;
+  height: 400px;
+}
+.title-img-div{
+  position: relative;
+}
+div .text{
+  position: absolute;
+  top: 23%;
+  padding: 0% 67% 1% 8%;
+}
+.big-img2{
+  display: none;
+}
+.text p{
+  margin: 7% 0;
+}
+.text h2{
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+div .btn-blue-color{
+  background-color: #0067b8;
+  font-weight: 500;
+}
+.text a{
+  margin: 0 8%;
+}
+/* product */
+
+#product{
+  text-align: center;
+  font-weight: 500;
+  margin: 10% 0;
+}
+.col-lg-2 i{
+  margin-top: 5%;
+
+}
+.fa-3x{
+  color: black;
+}
+
+/* selles */
+#selles{
+  margin: 7% 4%;
+}
+.new-product{
+  background-color: #ffb900;
+  padding: 1% 3%;
+  font-weight: 500;
+}
+
+/* edge */
+.edge-container-fluid{
+  position: relative;
+}
+.edge-img-div .edge-img-sm{
+  display: none;
+}
+.edge-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 92%;
+  height: 470px;
+}
+div .edge-card{
+  position: absolute;
+  top: 15%;
+  left: 8%;
+}
+div .card-title{
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+div .card-text{
+  margin: 25px 0;;
+}
+.edge-card .card{
+  width: 55%; 
+  height: 20rem;
+  padding: 5% 4%;
+  border-radius: 0;
+}
+/* selles2 */
+#selles2{
+  margin: 7% 4%;
+}
+#selles2 h2{
+  margin:2% 0%;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+/* footer */
+#footer{
+  margin: 3% 4%;
+}
+.back-to-top-btn-div{
+  text-align:right;
+  margin: 2% 0% 5% 0%;
+}
+.space{
+  margin: 0 2%;
+  font-size: 25px;
+  color: black;
+}
+.last-line div{
+  display: inline;
+}
+.last-line-right{
+  float: right;
+}
+.footer-span-margin{
+  margin: 0 10px;
+}
+.footer-span-nomargin{
+  margin-right: 15px;
+}
+
+.color-size{
+  font-size: 0.7rem;
+  color: #616161;
+}
+.color-size:hover{
+  text-decoration: underline;
+}
+.last-line{
+  margin-top: 2%;
+}
+.footer-heading{
+  color: #616161;
+  margin-bottom: 8%;
+}
+/* bootstrap */
+.card .card-body{
+  padding-left: 0;
+}
+.card-body h3{
+  font-weight: 600;
+}
+
+@media (max-width:992px) {
+  .title-img{
+    position: static;
+  }
+  .text p{
+    margin: 3% 0;
+  }
+  .text a{
+    margin: 0 5%;
+  }
+  div .text{
+    position: static;
+    padding: 1% 0 1% 5%;
+  }
+  .big-img1{
+    display: none;
+  }
+  .big-img2{
+    display: block;
+  }
+  .edge-img{
+    width: 100%;
+    display: none;
+  }
+  .edge-container-fluid{
+    position: static;
+  }
+  div .edge-card{
+    position: static;
+  }
+  .edge-card .card{
+     width: 100%;
+    padding-right: 0;
+  }
+  .edge-img-div .edge-img-sm{
+    display: block;
+  }
+  #selles1 , #selles2 {
+    margin: 7% 0%;
+  }
+  
+}
+@media (max-width:540px) {
+  .back-to-top-btn{
+    width: 100%;
+    margin: 4% 0;
+  }
+  .last-line-right{
+    margin-top: 3%;
+  }
+}
